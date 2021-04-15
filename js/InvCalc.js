@@ -23,6 +23,7 @@
         var monthlyPayment = 2000
         var calculatedValue = 0
         var error = 0
+        outputDiv.innerHTML = "";
 
         do
         {
@@ -37,7 +38,7 @@
                 monthlyPayment -= Math.abs(monthlyPayment * error * learningGradient)
             }
             outputDiv.innerHTML += "Monthly payment <i>" + monthlyPayment.toFixed(2) + "</i> will result in <i>" + calculatedValue.toFixed(2) + "</i> after <em>" + periodCount + "</em><br>"
-        } while (error > 0.001)
+        } while (error > 0.0001)
     }
 
     
