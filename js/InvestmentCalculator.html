@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Investment calculator</title>
+    <style>
+        body {
+            font-style: Arial, helvetica, sans-serif;
+        }
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Interest *)<br>
+            <td><input id="fldInterest">
+        </tr>
+        <tr>
+            <th>No. of periods
+            <td><input id="fldPeriodCount">
+        </tr>
+        <tr>
+            <th>Target
+            <td><input id="fldTarget">
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;">
+                <button id="btnCalc">Calculate</button>
+            </td>
+        </tr>
+    </table>
+    <div>
+        *) As decimal per period, not as percentage. Ie. 5% interest per 12 periods = 0.05/12.
+    </div>
+    <div id="output">
+
+    </div>
+    <script src="InvCalc.js"></script>
+</body>
+</html>
