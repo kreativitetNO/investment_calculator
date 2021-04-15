@@ -35,6 +35,7 @@
     <div>
         *) As decimal per period, not as percentage. Ie. 5% interest per 12 periods = 0.05/12.
     </div>
+    <h2>Iterative output
     <div id="output">
 
     </div>
