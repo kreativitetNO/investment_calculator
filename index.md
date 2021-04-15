@@ -35,9 +35,8 @@
     <div>
         *) As decimal per period, not as percentage. Ie. 5% interest per 12 periods = 0.05/12.
     </div>
-    <h2>Iterative output
+    <h2>Iterative output</h2>
     <div id="output">
-
     </div>
     <script src="js/InvCalc.js"></script>
 </body>
